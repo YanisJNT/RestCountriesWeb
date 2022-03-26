@@ -1,0 +1,43 @@
+main{
+    width:100%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content:center;
+}
+
+
+main > #home{
+    width: 90%;
+}
+
+
+#home > .search-pays {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 2rem;
+}
+
+
+.search-pays > .input-search-a1{
+    width: 30%;
+    height: 50px;
+    background: #FFFFFF;
+}
+.box--cards{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.load-more{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+header{
+    background-color: #fff;
+    border-bottom:1px solid  gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position:fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+}
+
+
+header > h1 {
+    margin: 0;
+}
+
+
+
+header > nav >  .button-white{
+    color: black;
+    font-size: 1.30rem;
+    font-weight: 600;
+    cursor: pointer;
+}

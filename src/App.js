@@ -5,7 +5,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import InfoCountry from "./components/InfoCountry"
 
-
+/*t*/
 function App() {
 
   

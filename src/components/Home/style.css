@@ -1,6 +1,6 @@
 main{
     width:100%;
-    margin-top: 10rem;
+    margin-top: 2rem;
     display: flex;
     justify-content:center;
 }
@@ -20,11 +20,6 @@ main > #home{
 }
 
 
-.search-pays > .input-search-a1{
-    width: 30%;
-    height: 50px;
-    background: #FFFFFF;
-}
 .box--cards{
     width: 100%;
     display: flex;
@@ -40,4 +35,30 @@ main > #home{
 .load-more{
     display: flex;
     justify-content: center;
+}
+
+
+
+@media screen and (max-width:740px){
+    .box--cards{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width:600px){
+    #home > .search-pays{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        gap: 2rem;
+    }
 }

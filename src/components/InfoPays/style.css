@@ -1,0 +1,142 @@
+
+
+.span-bold{
+    font-weight:bold;
+}
+
+.section-card-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+
+.box-one-card{
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 1.50rem;
+}
+
+.box-one-card > img {
+    width: 380px;
+    height:230px;
+    object-fit:cover;
+}
+
+.box-about-country{
+    margin: 0 1rem;
+}
+.box-about-country > h2{
+    font-size:2.50rem;
+}
+
+.about-country .about-left,.about-right,.box-border-country > p,span {
+    font-size: 1.50rem;
+}
+.box-border-country {
+    margin-top: 2rem;
+}
+.box-border-country > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-border-country{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-border-country > span{
+    background: rgb(235, 232, 232);
+    padding: 1rem;
+    margin: 0.4rem;
+}
+
+.button-back{
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+
+@media screen and (min-width: 620px){
+    .box-one-card > img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .box-about-country{
+        margin: 0 5rem;
+    }
+}
+
+
+@media screen and (min-width:720px){
+    .box-one-card > img {
+        width: 600px;
+        height:350px;
+    }
+
+    .about-country{
+        display: flex;
+        justify-content:space-around;
+        gap: 2.50rem;
+    }
+}
+
+
+
+@media screen and (min-width:990px){
+
+    .box-about-country{
+        margin: 0 0rem;
+    }
+
+    .section-card-button{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 0;
+    }
+    
+
+    .box-one-card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .about-country{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .box-one-card > img {
+        height:300px;
+        width: 500px;
+        margin:0 2rem;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    .box-one-card > img {
+        height:400px;
+        width: 700px;
+        margin:0 2rem;
+    }
+}
+
+
+@media screen and (max-width:385px){
+    .box-one-card > img {
+        height:150px;
+        width: 350px;
+    }
+}
